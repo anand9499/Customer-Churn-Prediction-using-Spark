@@ -1,8 +1,12 @@
 # Customer-Churn-Prediction-using-Spark
-In this project, I use the customer behavioral data of a fictitious music app company, Sparkify, to create a model that predicts customers who are most likely to churn.
+## Overview
+In this project, I use the customer behavioral data of a fictitious music app company, Sparkify, to create a model that predicts customers who are most likely to churn.I used three different models : Logistic Regression Model, Linear SVC Model and Random Forest Model. Based of F1 scores, Random Forest Classifiers performed the best. F1 score as evaluation metric was suitable for this scenario, because our dataset was imbalanced. The ------- model achieved a best F1 score of -------. Most useful features turned out to be : ----------
 
-Files:
+## Files in the repo
 1. Readme
 2. Sparkify.ipynb
 
-For blogpost related to this project, pleas visit : https://medium.com/@anand9499/customer-churn-prediction-using-apache-spark-5ce8103934ac 
+## Packages used
+PySpark, Pandas, Matplotlib, Seaborn, Plotly
+
+For blogpost related to this project, please visit : https://medium.com/@anand9499/customer-churn-prediction-using-apache-spark-5ce8103934ac 
